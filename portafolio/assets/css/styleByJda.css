@@ -1,0 +1,43 @@
+
+
+/*Espacio en el título de entrada*/
+.main_home_content h2 {
+line-height: 7rem;
+}
+/*Fondo Imagen de Perfil*/
+.user_seperator a i {
+color: transparent;
+background-image: url("https://juandavidarce.neocities.org/Images/perfil_piscina.jpg");
+background-size: cover;
+}
+
+/*Icono javascript*/
+  div.imagenIconoJs {
+    width: 75px;
+    height: 75px;
+    background-image: url("../images/js.png");
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+}
+
+/*iconos font-awesome*/
+.iconos {
+
+  font-size: 80px !important;
+}
+.iconos1 {
+  padding: 0.7em;
+  color: black;
+}
+.about_top_content i {
+    color: black;
+}
+#centrar {
+  display: flex;
+    justify-content: center;
+    padding-right: 85px;
+}
+figcaption {
+  text-align: center;
+}
