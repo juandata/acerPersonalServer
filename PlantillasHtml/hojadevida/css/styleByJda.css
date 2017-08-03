@@ -1,0 +1,339 @@
+.banner {
+    background: url(../images/portada.jpg);
+    background-size: cover;
+    height: 600px;
+
+  }
+  .banner300 {
+height: 300px;
+
+  }
+.w3agile-footer {
+  height: 200px;
+}
+.social-w3licon a, .w3agile-address ul li,.w3agile-address ul li a {
+
+    color: black;
+  }
+  .social-w3licon a:hover {
+
+      border-color: black;
+    }
+.espaciado {
+  padding: 1px;
+}
+.contenedor {
+  width: 100%;
+margin-top: 40px;
+  display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+  }
+.contenedorGenerico {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.contenedorInterno {
+width: 100%;
+height: 400px;
+
+}
+
+}
+  .col-md-8.col-sm-8.about-right.wthree {
+    width: 100%;
+}
+.col-md-8.col-sm-8.about-right.wthree.reseteando {
+    margin-top: 60px;
+  }
+.importacion1 {
+  position:relative;
+    width:200px;
+    height:auto;
+    margin:0 auto;
+    background-color:#061322;
+
+}
+.about-body {
+  background: #ddd url(../images/egg_shell.jpg) repeat top left;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.reseteando {width: 100%!important;}
+.sb-container div {
+  height: 300px!important;
+
+}
+
+#checkSkills {
+position: relative;
+    left: 109px;
+    font-size: 30px;
+  }
+.main {
+  width: auto!important;
+  overflow: inherit!important;!/* IDEA:ocultando   */
+}
+.icon-cog:before {
+    content: '\31'!important;
+  }
+  .icon-flight:before {
+    content: '\32'!important;
+}
+.icon-eye:before {
+    content: '\33'!important;
+}
+.icon-install:before {
+    content: '\34'!important;
+}
+.icon-bag:before {
+    content: '\35'!important;
+}
+.icon-globe:before {
+    content: '\36'!important;
+}
+.icon-picture:before {
+    content: '\37'!important;
+}
+.icon-video:before {
+    content: '\38'!important;
+}
+.icon-download:before {
+    content: '\39'!important;
+}
+.icon-mobile:before {
+    content: '10'!important;
+}
+.icon-camera:before {
+    content: '11'!important;
+}
+.sb-container div h4 {
+    position: absolute;
+    top: 70px;
+  }
+/*ESTILOS PERSONALIZADOS REGISTRADOS*/
+
+.contenedor1 {
+  width: 200px;
+    height: 150px;
+  }
+  .sb-container {position: relative;!important; margin: inherit!important;}
+  #contenedor1 {
+    z-index: 1;
+    top: 106px;
+    position: relative;
+}
+
+.contenedorFlex {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+      margin-top: 40px;
+}
+.texturaVerde {  background: rgba(255, 255, 255, 0);;
+    background-image: url(../images/fabric.png);}
+     .texturaVerdeInterna { background-color: rgba(135, 177, 29, 0.2);;
+  }
+  .textoAzul {    font-size: 41px!important;
+    font-family: gadget;
+    color: cornflowerblue!important;
+        text-align: center;
+  }
+  .about {
+    padding: inherit;
+  }
+  .textoAzulPequeño {
+font-size: 21px!important;  }
+
+#concretoAbout {
+  width: 100%;
+    min-height: 134px;
+    position: absolute;
+    z-index: -1;
+    top: 50px;}
+.contenedorDivs {
+  width: 200px;
+    height: 150px;
+    position: relative;
+}
+#html,
+#css,
+#js, #sql, #cms, #git, #linux, #dns, #bind, #wampLamp, #ajax {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+  .textoAzulPequeño, .textoGris  {  color: #645b5c!important; }
+#html,
+#css,
+#js,  #sql, #cms, #git, #linux, #dns, #bind, #wampLamp, #ajax {display: none; top: auto;}
+#html {display: block;}
+.w3agile-footer {
+    background: inherit!important;
+}
+
+.separador1 {width: 100%; height: 10px; border: solid;}
+
+ /*Personalizacion iconos*/
+ .iconoContenedor a { width: 60px; height: 60px; }
+ .icono {font-size: 40px!important; margin-top: 10px;}
+
+p { font-size: 120%; }
+@font-face {
+    font-family: 'icomoon';
+    src:url('http://fontmagnet.com/fonts/icomoon.eot');
+    src:url('http://fontmagnet.com/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('http://fontmagnet.com/fonts/icomoon.woff') format('woff'),
+        url('http://fontmagnet.com/fonts/icomoon.ttf') format('truetype'),
+        url('http://fontmagnet.com/fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('http://fontmagnet.com/fonts/icomoon.eot');
+    src:url('http://fontmagnet.com/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('http://fontmagnet.com/fonts/icomoon.woff') format('woff'),
+        url('http://fontmagnet.com/fonts/icomoon.ttf') format('truetype'),
+        url('http://fontmagnet.com/fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+  text-decoration: none;
+}
+
+.socialble{
+  width: 400px;
+  position:relative;
+  margin: 50px auto;
+}
+.sociable a{
+    position: relative;
+    display: inline-block;
+    font-family: "icomoon";
+    font-size: 1.2em;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 30px;
+    font-smoothing: antialiased;
+}
+.sociable .fb{
+    background: #46629E;
+}
+.sociable .fb:before,
+.sociable .fb:after{
+    border-color: #46629E;
+}
+
+.sociable .tw{
+    background: #00ACEE;
+}
+.sociable .tw:before,
+.sociable .tw:after{
+    border-color: #00ACEE;
+}
+
+.sociable .gp{
+    background: #DD4B39;
+}
+.sociable .gp:before,
+.sociable .gp:after
+{
+    border-color: #DD4B39;
+}
+.sociable a:before,
+.sociable a:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background: transparent;
+    top: 0; bottom: 0; left: 0
+
+
+
+
+
+      ; right: 0;
+    border-radius: 50%;
+    transition: .3s all;
+    border: 3px solid;
+}
+.sociable a:hover:after{
+   -webkit-transform: scale(1.5);
+}
+.sociable a:hover:before{
+    -webkit-transform: scale(2);
+    transition: .3s all;
+    opacity: 0;
+}
+
+
+
+/*ESTILOS PERSONALIZADOS REGISTRADOS*/
+/*media quieries-->*/
+@media only screen and (max-width: 600px) {
+    .sb-container div {
+height: 200px!important;
+
+    }
+
+
+#contenedor1 {
+top: auto; margin-bottom: -70px;
+}
+.textoAzul {
+    font-size: 20px!important;}
+  #titulo {text-align: center;}
+  #checkSkills {font-size: 22px; left: 103px;}
+  #html, #css, #js, #sql, #cms, #git, #linux, #dns, #bind, #wampLamp, #ajax {
+    top: auto;
+    margin-top: -110px;
+}
+.contenedorSeparador {
+margin-top: 100px;
+
+}
+h2.textoAzul.textoAzulPequeño {
+background-color: transparent;
+}
+/*Personalizacion iconos*/
+.social-w3licon a { width: 30px; height: 30px; }
+.fa {font-size: 14px!important; margin-top: auto;}
+}
+
+
+@media (max-width:1100px) and (min-width:100px) {
+  h2.textoAzul.textoAzulPequeño {
+
+
+}
+.logos {width: 40%!important;}
+}​
+
+/*MEDIA QUERIES PARA PANTALLAS SUPERIORES A 1300PX*/
+@media only screen and (min-width: 1100px) {
+
+  .sb-container div {
+    height: 350px!important; width: 120%!important;
+
+  }
+.logos {width: 70%!important;}
+}
+}
