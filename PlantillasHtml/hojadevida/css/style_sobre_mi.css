@@ -1,0 +1,142 @@
+/*
+Estilos personalizados diseñados por JDA, hijo de mataleones.
+/*Esquema de colores obtenido desde Kuler
+1: rgb(243, 243, 245); blanco claro
+2: rgb(32, 34, 38); Azul muy oscuro
+3: rgb(38, 64, 62); Verde medio
+4: rgb(218, 173, 148); Piel
+5: rgb(166, 130, 112); Cafe oscuro
+
+
+-Juan David Arce rgba(150, 141, 125, 0.98); Beige
+-Web developer rgba(214, 170, 141, 0.73); transparencia
+- Front End and Back end Services #97582a; Cafe claro
+*Esquema de tipos de fuente
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+Letra 1 titulo
+    font-family: 'Playball', cursive;
+Letra 2
+'Bowlby One SC', cursive
+
+Letra 3 Inconsolata
+*/
+.colom {
+  color: yellow ; -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;}
+
+    .negro {color: black;}
+.despeja {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+
+h1.encabezadoInicial_bg {
+    color: rgb(32, 34, 38);
+}
+
+.encabezadoInicial {
+  max-height: 10%; font-size: 2em; text-align: center; width: 100%;
+}
+.bloque-100-800px {
+    min-height: 800px;
+    width: 100%;
+    background-color: rgba(214, 170, 141, 0.73);
+    font-style: italic;
+    color:  rgb(166, 130, 112);
+
+}
+.descripcion {
+    max-height: 20%;
+    max-height: 20%;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    font-size: 22px;
+}
+
+.bloque-50-50 {
+
+  max-height: 50%; max-width: 50%;   text-align: center; color:  rgb(32, 34, 38);
+}
+.bloque-100-100 { width: 100%; height: 100%; color:  rgb(32, 34, 38); }
+.textoGrande {
+  font-size: 1.5em;
+    margin: auto;
+}
+.textoGrande1 { font-size: 55px;}
+.textoPequeño {
+  font-style: italic;
+    color: rgb(166, 130, 112);
+    margin: auto; padding: 50px;
+   }
+.fila {    background-color: antiquewhite;
+
+    text-align: center;
+    display: flex;}
+
+    .textoFuerte { color: rgb(32, 34, 38);}
+    .textoRojo {color: red;}
+    #logos_1 {font-size: 8em;}
+
+/*ESTILOS FOTO OVERLAY*/
+.containerLogo {
+  position: relative;
+  width: auto;
+}
+
+.image {
+  display: block;
+
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerLogo:hover .overlay2 {
+  bottom: 0;
+  height: 100%;
+}
+
+
+.filaCentrada {
+  flex-direction: column;
+    align-items: center;}
+
+
+@media (max-width:659px) and (min-width:0px) {
+
+  .descripcion { height: 20%;
+      height: 20%;
+      text-align: center;
+      width: 100%; font-size: auto;     padding: 15px;
+
+  }
+
+
+.fila {margin-bottom: 10px;  }
+.textoPequeño {font-size: 7px; padding: 15px;}
+.textoGrande { font-size: 0.5em;}
+#espacio {    white-space: pre-wrap;}
+.colom {-webkit-text-stroke-width: 0.8px;}
+.textoGrande1 { font-size: 17px;}
+.miPrimerContacto {font-size: 30px; }
+}

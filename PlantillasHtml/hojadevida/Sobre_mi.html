@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<!--
+Author: Juan David Tabares Arce
+Author URL: http://juandavidarce.co
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+
+/*Para conocer más sobre las licencias dirigirse a: https://creativecommons.org/licenses/?lang=es
+Puedes copiar y crear nuevo contenido basándote en esta plantilla siempre y cuando indiques quien es el autor original en tu creación. Para beneficiarte comercialmente debes obtener una licencia por parte de Juan David Tabares Arce.
+*/
+-->
+
+
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Plantilla en HTML, CSS, XML y Javascript">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Juan David Tabares Arce, Manizales, Colombia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="images/avatar200.png">
+
+      <!--Palabras rotantes por JDA hijo de mataleones-->
+      <link href="./Rotating Words with CSS Animations_files/css" rel="stylesheet" type="text/css">
+          <link rel="stylesheet" type="text/css" href="./Rotating Words with CSS Animations_files/demo.css">
+          <link rel="stylesheet" type="text/css" href="./Rotating Words with CSS Animations_files/style2.css">
+      <script src="./Rotating Words with CSS Animations_files/quant.js.descarga" async="" type="text/javascript"></script><script type="text/javascript" async="" src="./Rotating Words with CSS Animations_files/ga.js.descarga"></script><script src="./Rotating Words with CSS Animations_files/modernizr.custom.72111.js.descarga"></script>
+      <style>
+        .no-cssanimations .rw-wrapper .rw-sentence span:first-child{
+          opacity: 1;
+        }
+      </style>
+
+
+    <!-- hojas ded estilo de la plantilla  -->
+
+
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style_sobre_mi.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/diapositivas.css" type="text/css" rel="stylesheet" media="all">
+
+
+    <link href="recursos/font-awesome-4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet" media="all">
+    <link href="recursos/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="all">
+
+
+    <!--Fuentes personalizadas-->
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+
+
+    <!--Scripts -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+  <!--  <script src="js/scriptsPersonalizados.js"></script>-->
+
+
+<style>
+.logoInicial {
+    background: url("images/cuero.jpg");
+    background-size: cover;
+  }
+
+.ca-sub {color: /*rgb(243, 243, 245);*/     color: rgb(32, 34, 38);}
+
+</style>
+
+
+  </head>
+  <body>
+    <!--Contenedor Principal *En esta pàgina uso la propiedad flexbox para que el contenido sea adaptable-->
+    <div class="contenedorFlexPrincipal" >
+
+      <div class="contenedorFlexGenerico">
+        <div class="logoInicial">
+         <a href="#" onclick="openNav()" class="menuIcono"  onclick="openNav()" ><i class="fa fa-bars" aria-hidden="true">  </i></a>
+<!--Animacion logo usando solamente CSS-->
+         <div class="logoPrincipal">
+          <div class="wrapper">
+
+           <div class="square"></div>
+           <div class="tall"></div>
+           <div class="wide"></div>
+
+
+        </div>
+
+      </div>
+
+      <!--Iconos-->
+      <section class="sociable">
+
+
+      <a href="https://www.facebook.com/juandavid.tabaresarce"   target="_blank" class="icon fb"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="https://github.com/juandata"  target="_blank" class="icon tw"><i class="fa fa-github-square" aria-hidden="true"></i>
+</a>
+      <a href="https://plus.google.com/108728558844448484790"  target="_blank" class="icon gp"><i class="fa fa-google-plus-square" aria-hidden="true"></i>
+</a>
+    </section>  <!--Fin iconos-->
+      <!--Inicio texto banner de entrada-->  <div class="textoJDA">
+                <div class="contenedorFlexGenerico banner adentroBanner">
+                  <h2 class="JDA">Juan David Arce </h2><p class="item-1">.CO</p> <span class="WD">Web Developer</span><p class="FS">Front-end and Back-end services.</p>
+                </div>
+        <!--Fin texto banner de entrada--> </div>
+             <!--MENU-->
+             <div class="menu">
+               <ul class="ca-menu">
+           <li>
+            <a href="Inicio.html"  onclick="openNav()">
+              <span class="ca-icon"><i class="fa fa-home" aria-hidden="true"></i>
+</span>
+              <div class="ca-content">
+                 <h2 class="ca-main">Inicio</h2>
+                <h3 class="ca-sub">Bienvenid@ a mi página personal.</h3>
+              </div>
+            </a>
+          </li>
+           <li>
+            <a href="Sobre_mi.html">
+              <span class="ca-icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+              <div class="ca-content">
+                <h2 class="ca-main">Sobre mi</h2>
+                <h3 class="ca-sub">Soy una persona real con metas y sueños.</h3>
+              </div>
+            </a>
+          </li>
+          <li>
+           <a href="Habilidades.html">
+             <span class="ca-icon"><i class="fa fa-briefcase" aria-hidden="true"></i>
+ </i></span>
+             <div class="ca-content">
+               <h2 class="ca-main">Habilidades</h2>
+               <h3 class="ca-sub">Lo que puedo hacer por ti.</h3>
+             </div>
+           </a>
+         </li>
+         <li>
+          <a href="Servicios.html">
+            <span class="ca-icon"><i class="fa fa-server" aria-hidden="true"></i>
+</span>
+            <div class="ca-content">
+              <h2 class="ca-main">Servicios</h2>
+              <h3 class="ca-sub">Servicios excepcionales a precios económicos.</h3>
+            </div>
+          </a>
+         </li>
+         <li>
+          <a href="Plantillas.html">
+            <span class="ca-icon"><i class="fa fa-laptop" aria-hidden="true"></i>
+</i>
+</span>
+            <div class="ca-content">
+              <h2 class="ca-main">Plantillas</h2>
+              <h3 class="ca-sub">Plantillas bien documentadas para desarrolladores.</h3>
+            </div>
+          </a>
+         </li>
+         <li>
+          <a href="Contacto.html">
+            <span class="ca-icon"><i class="fa fa-envelope-square" aria-hidden="true"></i>
+</span>
+            <div class="ca-content">
+              <h2 class="ca-main">Contacto</h2>
+              <h3 class="ca-sub">Hablemos de tu proyecto y déjame asesorarte.</h3>
+            </div>
+          </a>
+         </li>
+
+         </ul>
+    <!--FIN Menu-->  </div>
+
+<!--Inicio Menu responsive-->
+
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="Inicio.html">Inicio</a>
+    <a href="Sobre_mi.html">Sobre mi<a>
+    <a href="Habilidades.html">Habilidades</a>
+    <a href="Servicios.html">Servicios</a>
+    <a href="Plantillas.html">Plantillas</a>
+    <a href="Contacto.html">Contacto</a>
+  </div>
+
+</div><!--Fin navegacion Menu responsive -->
+ <!--FIN Logo Inicial--> </div>
+<!--Fin contenedor generico--></div>
+<!--Inicio Segundo Contenedor-->
+<div >
+  <!--Inicio encabezado-inicial-->
+    <div class="bloque-100-800px">
+      <div class="encabezadoInicial">
+        <h1 class="encabezadoInicial_bg" style="
+    background: url(images/cuero.jpg);
+    background-size: cover;
+">Sobre Mi</h1>  </div>
+    <div class="descripcion">
+          <p>Hola y bienvenid@ a mi página web personal, mi nombre es <b> Juan David Tabares Arce</b> y soy de una pequeña ciudad ubicada al
+            noroccidente de Colombia en el Departamento de Caldas, estoy hablando de Manizales, <b>“la ciudad de las puertas abiertas” </b>  –como muy bien se le conoce en mi país.  </p>
+  </div>
+
+<div class="fila">
+<!--Inicio bloques1   <div class="despeja"></div>-->
+    <div class="bloque-50-50 textoGrande">
+     <h1>MUY PRONTO MATERIAL <span class="textoRojo">GRATUITO</span> </h1>
+     <i class="fa fa-gift" id="logos_1" aria-hidden="true"></i>
+ </div>
+     <div class="bloque-50-50 textoPequeño"> <h1 >Así como las puertas de mi ciudad también están abiertas las puertas de mi página web para que vuelvas cuando quieras ya que voy a estar subiendo contenido educativo
+        gratuito para <span class="textoFuerte">todas las personas</span> que quieran aprender a diseñar páginas desde cero. </h1> </div>
+</div>
+<!--Fin bloques 50501 Y FILA-->
+<div class="fila">
+<!--Inicio bloques1   <div class="despeja"></div>-->
+    <div class="bloque-50-50 textoPequeño">
+      <h1>También puedes encontrar en la página <a href="Servicios.html" target="_blank"> <span class="textoFuerte">Servicios </span> </a>todo lo que puedo hacer por ti en caso de que necesites el diseño, migración, mejora o  <span class="textoFuerte">instalación completa de una página web.</span>
+        También ofrezco servicios relacionados al mantenimiento de servidores y gestión de nombres de dominio. <br>  </h1>
+      </div>
+     <div class="bloque-50-50 textoGrande">   <h1>SERVICIO<span class="textoRojo"> CONFIABLE</span></h1><i class="fa fa-server" id="logos_1" aria-hidden="true"></i>
+       <i class="fa fa-code" id="logos_1" aria-hidden="true"></i> <h1>CÓDIGO <span class="textoRojo"> HECHO A MANO</span></h1>
+      </div>
+</div>
+<!--Fin bloques 50501 Y FILA-->
+<div class="fila">
+<!--Inicio bloques1   <div class="despeja"></div>-->
+    <div class="bloque-50-50 textoGrande" id="espacio">
+     <h1 >¿ QUIÉN SOY <span class="textoRojo">?</span> </h1>
+     <i class="fa fa-question-circle" id="logos_1" aria-hidden="true"></i>
+       <h2>  -Adicto a las hamburguesas </h2>  <span class="textoRojo"<h2> -Aficionado a las ciencias en general </h2></span> <h3>-Disfruto de un <span class="textoRojo"> buen café,</span> "<i class="fa fa-coffee" aria-hidden="true" style="color: #97582a"></i>" especialmente con una compañía agradable </h3>
+<h1>-Seguidor de los ciclistas <span class="colom">colom</span><span style="color: blue">bian</span><span style="color: red">os</span></h1> <h3>-Admirador del FC Barcelona y de <span class="textoRojo">Lionel Messi </span></h3>
+    </div>
+
+     <div class="bloque-50-50 textoPequeño"> <h1>Soy una persona muy <span class="textoFuerte">dedicada a mi profesión </span> y siempre estoy actualizando mis conocimientos para estar a la vanguardia en las últimas tecnologías relacionadas al desarrollo web. No tengo problema en
+        dedicar más de 40 horas a la semana a un proyecto ya que no descanso hasta que haya sido <span class="textoFuerte">completado satisfactoriamente </span>cumpliendo todos los requisitos no solo del cliente sino también de mis estándares de calidad.  </h1>
+       </div>
+</div>
+<!--Contenedor del slideshow-->
+<div style="font-size: 2em; text-align: center"><h1>¿Qué me gusta?</h1></div>
+<div>
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">El Universo</div>
+    <img src="images/sol.jpg" style="width:100%">
+    <div class="text">Me encanta la astronomía, la astrofísica y la mecánica cuántica</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">La Gastronomía</div>
+    <img src="images/gastronomia.jpeg" style="width:100% " >
+    <div class="text">Como de todo y me gusta experimentar con nuevos platos</div>
+  </div>
+<!--  <div class="mySlides fade">
+    <div class="numbertext">Las Orientales</div>
+    <img src="images/mujerOriental.jpg" style="width:100%">
+    <div class="text">Las mujeres orientales siempre me han llamado la atención</div>
+  </div>-->
+  <div class="mySlides fade">
+    <div class="numbertext">El Deporte</div>
+    <img src="images/seleccion.jpg" style="width:100%">
+    <div class="text">Me gusta el boxeo, el ciclismo y por supuesto el fútbol</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">El Diseño Web</div>
+    <img src="images/responsive.jpg" style="width:100%">
+    <div class="text">Tengo la fortuna de ganarme la vida haciendo lo que más me gusta</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">El Póquer</div>
+    <img src="images/poker.jpg" style="width:100%">
+    <div class="text">De vez en cuando me reuno con mis amigos a jugar una partida</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">El Inglés</div>
+    <img src="images/english.jpg" style="width:100%">
+    <div class="text">Gracias a mi trabajo siempre estoy en contacto con el inglés</div>
+  </div>
+<!--  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+</div>
+<br>
+<!--
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>-->
+
+</div> <!--FIN FILA Contenedor del slideshow-->
+
+<!--
+<div class="fila">
+
+    <div class="bloque-50-50-textoPequeño">
+      <h1>También puedes encontrar en la página  <span class="textoFuerte">Servicios </span>todo lo que puedo hacer por ti en caso de que necesites el diseño, migración, mejora o  <span class="textoFuerte">instalación completa de una página web.</span>
+        También ofrezco servicios relacionados al mantenimiento de servidores y gestión de nombres de dominio.  </h1>
+      </div>
+     <div class="bloque-50-50-textoGrande">   <h1>SERVICIOS ECONOMICOS Y <span class="textoRojo"> CONFIABLES </span></h1> </div>
+</div>-->
+<!--Fin bloques 50501 Y FILA-->
+
+<section class="rw-wrapper">
+  <h2 class="rw-sentence">
+    <span>10 Años diseñando la web</span>
+    <br>
+    <span>con</span>
+    <div class="rw-words rw-words-1">
+      <span>amor</span>
+      <span>pasión</span>
+      <span>responsabilidad</span>
+      <span>profesionalismo</span>
+      <span>excelentes resultados</span>
+
+    </div>
+    <br>
+
+  </h2>
+</section>
+<!--  <span>with a silent touch of</span>
+  <div class="rw-words rw-words-2">
+    <span>sugar</span>
+    <span>spice</span>
+    <span>colors</span>
+    <span>happiness</span>
+    <span>wonder</span>
+    <span>happiness</span>
+  </div>-->
+
+<div class="fila">
+
+ <div>
+ <div class="textoPequeño" style="text-align: -webkit-auto">
+    <h1 class="textoGrande1 miPrimerContacto">2007 mi primer <span class="textoRojo"> contacto</span> </h1>
+   <h1 > Este año <span class="textoFuerte" >cumplo 10 años</span> de haber incursionado en el mundo de la creación de páginas web y estoy muy emocionado por todo lo que está por venir y
+      las miles de posibilidades que hay disponibles tanto para mí como para mis clientes. <br>
+    <span class="textoRojo"><h1>Primera Página</h1><br> </span> Mi primer contacto con el diseño de una página web fue en el año 2007 cuando estaba cursando mi primer semestre en la Universidad y
+      la primera página que hice fue un blog de Wordpress que trataba sobre literatura ya que durante esos años estaba estudiando Lenguas Modernas.<br>
+      Durante los siguientes cinco años aprendí a diseñar páginas más complejas creando directamente el código y aprendí las bases del desarrollo web:<span class="textoRojo"> HTML, CSS y JavaScript. </span>
+    <br> También aprendí <span class="textoFuerte">otras tecnologías </span>que mencionaré en la página<a href="Habilidades.html" target="_blank"> <span class="textoFuerte"> Habilidades.</span></a>
+    </h1> </div> </div>
+</div> <!--FIN FILA-->
+
+<div class="fila">
+
+    <div class="bloque-50-50 textoGrande1" >
+   <h1 >2013 el punto de <span class="textoRojo"> inflexión</span> </h1>
+
+ </div>
+   <div class="bloque-50-50 ">
+   <div class="textoPequeño" style="text-align: -webkit-auto">
+     <h1 > En el 2013 mi vida cambió drásticamente ya que la compañía donde yo trabajaba como freelancer decidió cerrar el área en la cual me desempeñaba,
+        fue en ese momento en el cual  me di cuenta que tenía que cambiar de rumbo y
+       decidí <span class="textoFuerte"> especializarme en el desarrollo web </span> ya que tenía una gran ventaja gracias al conocimiento
+        adquirido durante años anteriores.
+      </h1> </div> </div>
+</div> <!--FILA-->
+
+
+<div class="fila filaCentrada" >
+  <h2>¿ Quieres ver mi rostro ?</h2>
+<p>Coloca el puntero del mouse sobre la imágen o tócala.</p>
+
+<div class="containerLogo">
+ <img src="images/avatar200.png" alt="Avatar" class="image">
+ <div class="overlay2">
+
+   <a href="Contacto.html" target="_blank"><img src="images/perfilFacebook.jpg" alt="Avatar" class="image" style="width: 100%"></a>
+ </div>
+</div>
+
+</div> <!--FILA-->
+
+
+  </div>
+</div><!--Fin  bloque-->
+<!--Fin contenedor segundo --></div>
+
+
+
+
+
+
+<script>
+/* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<!--normal
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}</script> -->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+
+
+</script><!--automatico-->
+  </body>
+</html>

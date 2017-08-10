@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://tympanus.net/Tutorials/SmoothTransitionsResponsiveLayout/ -->
+<html lang="en" class=" js cssanimations csstransforms csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Diseño Responsive con Transiciones Suaves en CSS por JDA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Diseño Responsive con Transiciones Suaves en CSS por JD">
+        <meta name="keywords" content="css3, transitions, animations, css-only, navigation, smooth scrolling, full width, full height, window width, window height">
+        <meta name="author" content="Codrops">
+        <link rel="shortcut icon" href="https://tympanus.net/Tutorials/favicon.ico">
+		<link href="./CSS-Only Responsive Layout with Smooth Transitions_files/css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="./CSS-Only Responsive Layout with Smooth Transitions_files/demo.css">
+      <link rel="stylesheet" type="text/css" href="./CSS-Only Responsive Layout with Smooth Transitions_files/style.css">
+			    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+          <link href="recursos/font-awesome-4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet" media="all">
+          <link href="recursos/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="all">
+		<script src="./CSS-Only Responsive Layout with Smooth Transitions_files/quant.js.descarga" async="" type="text/javascript"></script>
+		<script type="text/javascript" async="" src="./CSS-Only Responsive Layout with Smooth Transitions_files/ga.js.descarga"></script><script type="text/javascript" src="./CSS-Only Responsive Layout with Smooth Transitions_files/modernizr.custom.79639.js.descarga"></script>
+		<!--[if lte IE 8]>
+			 <link rel="stylesheet" type="text/css" href="css/simple.css" />
+		<![endif]-->
+
+    <!--Estilo especifico para el menu adaptable-->
+<style>
+
+
+
+
+.logoPrincipal {position: absolute; width: 100px;height: 100px;margin: auto; z-index: 1}
+
+  .container {z-index: 0;}
+  .square, .tall, .wide { border-color: rgb(243, 243, 245);}
+  .sociable a {z-index: 1;  margin-top: 110px;}
+  .wrapper {margin-left: 4em;}
+.menuIcono {    position: absolute;
+    right: 0em;
+    z-index: 1;
+    top: 0em;
+
+}
+.overlay {z-index: 2!important;}
+i.fa.fa-bars { display: block;}
+.overlay-content {margin-bottom: 100px;}
+
+
+
+@media (max-width:699px) and (min-width: 0px) {
+  .logoPrincipal { width: 55px;height: 55px;}
+.sociable a { margin-top: 60px; width: 30px;
+    height: 30px;}
+    .fa {    font-size: 28px;}
+
+.sociable {font-size: 8px;}
+
+
+
+/*
+@media (max-width:4999px) and (min-width:700px)  {
+.logoPrincipal { width: 100px; height: 100px; margin: auto;}
+
+
+}*/
+</style>
+
+
+
+</head>
+    <body>
+        <div class="container">
+        <div id="myNav" class="overlay" style="width: 0%;">
+
+  <!-- Button to close the overlay navigation-->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+  <!-- Overlay content-->
+  <div class="overlay-content">
+    <a href="Inicio.html">Inicio</a>
+    <a href="Sobre_mi.html">Sobre mi</a><a>
+    </a><a href="Habilidades.html">Habilidades</a>
+    <a href="Servicios.html">Servicios</a>
+    <a href="Plantillas.html">Plantillas</a>
+    <a href="Contacto.html">Contacto</a>
+  </div>
+
+</div>
+
+			<!-- Icono o menú-->
+			<div class="logoPrincipal">
+		<div class="wrapper">
+
+		 <div class="square"></div>
+		 <div class="tall"></div>
+		 <div class="wide"></div>
+
+
+	</div>
+
+</div><!--/ Icono o menú-->
+<section class="sociable">
+
+
+      <a href="https://www.facebook.com/juandavid.tabaresarce" target="_blank" class="icon fb"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="https://github.com/juandata" target="_blank" class="icon tw"><i class="fa fa-github-square" aria-hidden="true"></i>
+</a>
+      <a href="https://plus.google.com/108728558844448484790" target="_blank" class="icon gp"><i class="fa fa-google-plus-square" aria-hidden="true"></i>
+</a>
+    </section>
+<a href="#" onclick="openNav()" class="menuIcono"><i class="fa fa-bars" aria-hidden="true">  </i></a>
+			<div class="st-container">
+
+				<input type="radio" name="radio-set" checked="checked" id="st-control-1">
+				<a href="#">Serendipity</a>
+				<input type="radio" name="radio-set" id="st-control-2">
+				<a href="#">Happiness</a>
+				<input type="radio" name="radio-set" id="st-control-3">
+				<a href="#">Tranquillity</a>
+				<input type="radio" name="radio-set" id="st-control-4">
+				<a href="#">Positivity</a>
+				<input type="radio" name="radio-set" id="st-control-5">
+				<a href="#">Passion</a>
+
+				<div class="st-scroll">
+
+					<!-- Placeholder text from http://hipsteripsum.me/ -->
+
+					<section class="st-panel" id="st-panel-1">
+						<div class="st-deco" data-icon="H"></div>
+						<h2>Serendipity</h2>
+						<p>Banksy adipisicing eiusmod banh mi sed. Squid stumptown est odd future nisi, commodo mlkshk pop-up adipisicing retro.</p>
+					</section>
+
+					<section class="st-panel st-color" id="st-panel-2">
+						<div class="st-deco" data-icon="2"></div>
+						<h2>Happiness</h2>
+						<p>Art party readymade beard labore cosby sweater culpa. Art party whatever incididunt, scenester umami polaroid tofu.</p>
+					</section>
+
+					<section class="st-panel" id="st-panel-3">
+						<div class="st-deco" data-icon="B"></div>
+						<h2>Tranquillity</h2>
+						<p>Sint aute occaecat id vice. Post-ironic fap pork belly next level godard, id fanny pack williamsburg forage truffaut.</p>
+					</section>
+
+					<section class="st-panel st-color" id="st-panel-4">
+						<div class="st-deco" data-icon="x"></div>
+						<h2>Positivity</h2>
+						<p>Mixtape fap leggings art party, butcher authentic farm-to-table you probably haven't heard of them do labore cosby sweater.</p>
+					</section>
+
+					<section class="st-panel" id="st-panel-5">
+						<div class="st-deco" data-icon="Ç"></div>
+						<h2>Passion</h2>
+						<p>Fixie ad odd future polaroid dreamcatcher, nesciunt carles bicycle rights accusamus mcsweeney's mumblecore nulla irony.</p>
+					</section>
+
+				</div><!-- // st-scroll -->
+
+			</div><!-- // st-container -->
+
+        </div>
+
+
+        <script>
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+</body></html>

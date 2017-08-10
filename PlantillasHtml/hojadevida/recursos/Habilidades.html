@@ -1,0 +1,181 @@
+<!--
+Author: Juan David Tabares Arce
+Author URL: http://juandavidarce.co
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+
+/*Para conocer más sobre las licencias dirigirse a: https://creativecommons.org/licenses/?lang=es
+Puedes copiar y crear nuevo contenido basándote en esta plantilla siempre y cuando indiques quien es el autor original en tu creación. Para beneficiarte comercialmente debes obtener una licencia por parte de Juan David Tabares Arce.
+*/
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Plantilla en HTML, CSS, XML y Javascript">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Juan David Tabares Arce, Manizales, Colombia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- hojas ded estilo de la plantilla  -->
+
+
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="all">
+
+
+    <link href="recursos/font-awesome-4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet" media="all">
+    <link href="recursos/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="all">
+
+
+    <!--Fuentes personalizadas-->
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+
+
+    <!--Scripts -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+  <!--  <script src="js/scriptsPersonalizados.js"></script>-->
+
+
+
+
+  </head>
+  <body>
+    <!--Contenedor Principal *En esta pàgina uso la propiedad flexbox para que el contenido sea adaptable-->
+    <div class="contenedorFlexPrincipal" >
+
+      <div class="contenedorFlexGenerico">
+        <div class="logoInicial">
+         <a href="#" onclick="openNav()" class="menuIcono"  onclick="openNav()" ><i class="fa fa-bars" aria-hidden="true">  </i></a>
+<!--Animacion logo usando solamente CSS-->
+         <div class="logoPrincipal">
+          <div class="wrapper">
+
+           <div class="square"></div>
+           <div class="tall"></div>
+           <div class="wide"></div>
+
+
+        </div>
+
+      </div>
+      <!--Iconos-->
+      <section class="sociable">
+
+
+      <a href="https://www.facebook.com/juandavid.tabaresarce"   target="_blank" class="icon fb"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="https://github.com/juandata"  target="_blank" class="icon tw"><i class="fa fa-github-square" aria-hidden="true"></i>
+</a>
+      <a href="https://plus.google.com/108728558844448484790"  target="_blank" class="icon gp"><i class="fa fa-google-plus-square" aria-hidden="true"></i>
+</a>
+    </section>  <!--Fin iconos-->
+      <!--Inicio texto banner de entrada-->  <div class="textoJDA">
+                <div class="contenedorFlexGenerico banner adentroBanner">
+                  <h2 class="JDA">Juan David Arce </h2><p class="item-1">.CO</p> <span class="WD">Web Developer</span><p class="FS">Front-end and Back-end services.</p>
+                </div>
+        <!--Fin texto banner de entrada--> </div>
+             <!--MENU-->
+             <div class="menu">
+               <ul class="ca-menu">
+           <li>
+            <a href="Inicio.html"  onclick="openNav()">
+              <span class="ca-icon"><i class="fa fa-home" aria-hidden="true"></i>
+</span>
+              <div class="ca-content">
+                 <h2 class="ca-main">Inicio</h2>
+                <h3 class="ca-sub">Bienvenid@ a mi página personal.</h3>
+              </div>
+            </a>
+          </li>
+           <li>
+            <a href="Sobre_mi.html">
+              <span class="ca-icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+              <div class="ca-content">
+                <h2 class="ca-main">Sobre mi</h2>
+                <h3 class="ca-sub">Soy una persona real con metas y sueños.</h3>
+              </div>
+            </a>
+          </li>
+          <li>
+           <a href="#">
+             <span class="ca-icon">A</span>
+             <div class="ca-content">
+               <h2 class="ca-main">Habilidades</h2>
+               <h3 class="ca-sub">Lo que puedo hacer por ti.</h3>
+             </div>
+           </a>
+         </li>
+         <li>
+          <a href="Habilidades.html">
+            <span class="ca-icon"><i class="fa fa-server" aria-hidden="true"></i>
+</span>
+            <div class="ca-content">
+              <h2 class="ca-main">Servicios</h2>
+              <h3 class="ca-sub">Servicios excepcionales a precios económicos.</h3>
+            </div>
+          </a>
+         </li>
+         <li>
+          <a href="Servicios.html">
+            <span class="ca-icon"><i class="fa fa-briefcase" aria-hidden="true"></i>
+</i>
+</span>
+            <div class="ca-content">
+              <h2 class="ca-main">Plantillas</h2>
+              <h3 class="ca-sub">Plantillas bien documentadas para desarrolladores.</h3>
+            </div>
+          </a>
+         </li>
+         <li>
+          <a href="Contacto.html">
+            <span class="ca-icon"><i class="fa fa-envelope-square" aria-hidden="true"></i>
+</span>
+            <div class="ca-content">
+              <h2 class="ca-main">Contacto</h2>
+              <h3 class="ca-sub">Hablemos de tu proyecto y déjame asesorarte.</h3>
+            </div>
+          </a>
+         </li>
+
+         </ul>
+    <!--FIN Menu-->  </div>
+
+<!--Inicio Menu responsive-->
+
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="Inicio.html">Inicio</a>
+    <a href="Sobre_mi.html">Sobre mi<a>
+    <a href="Habilidades.html">Habilidades</a>
+    <a href="Servicios.html">Servicios</a>  <a href="#">Plantillas</a>  <a href="C">Contacto</a>
+  </div>
+
+</div><!--Fin navegacion Menu responsive -->
+ <!--FIN Logo Inicial--> </div>
+<!--Fin contenedor generico--></div>
+<!--Fin contenedor principal--></div>
+
+
+
+<script>
+/* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+  </body>
+</html>
